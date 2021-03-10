@@ -15,13 +15,11 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <artifactId>drools-test-coverage-parent</artifactId>
     <groupId>org.drools.testcoverage</groupId>
-    <version>7.48.1.20210308-prod</version>
+    <version>7.48.0.Final-redhat-00006</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -153,7 +151,7 @@
         </property>
       </activation>
       <properties>
-        <excludedGroups/>
+        <excludedGroups />
       </properties>
     </profile>
   </profiles>

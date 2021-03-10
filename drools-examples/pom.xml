@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.drools</groupId>
     <artifactId>drools</artifactId>
-    <version>7.48.1.20210308-prod</version>
+    <version>7.48.0.Final-redhat-00006</version>
   </parent>
 
   <artifactId>drools-examples</artifactId>
@@ -20,20 +20,7 @@
   <repositories>
     <!-- TODO remove this once maven central replicates the jboss repository -->
     <!-- Included so the examples sources in the distribution zip build out-of-the-box with maven -->
-    <repository>
-      <id>jboss-public-repository-group</id>
-      <name>JBoss Public Repository Group</name>
-      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </snapshots>
-    </repository>
+    
   </repositories>
 
   <build>
@@ -49,7 +36,7 @@
             <argument>-Xms1024M</argument>
             <argument>-Xmx1024M</argument>
             <argument>-cp</argument>
-            <classpath/>
+            <classpath />
             <argument>org.drools.benchmark.waltz.WaltzBenchmark</argument>
             <argument>waltz12.dat</argument>
           </arguments>
