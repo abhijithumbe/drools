@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>drools-model-compiler</artifactId>
+ <version>7.48.0.Final-redhat-00006-RHDM-1665</version>
   <packaging>bundle</packaging><!-- bundle = jar + OSGi metadata -->
 
   <properties>
